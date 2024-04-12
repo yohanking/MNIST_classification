@@ -44,8 +44,8 @@ class MNIST(Dataset):
 if __name__ == '__main__':
 
     # write test codes to verify your implementations
-    test_data_dir = '/dshome/ddualab/yohan/deeplearning_HW/data/test/'
-    train_data_dir = '/dshome/ddualab/yohan/deeplearning_HW/data/train/train/'
+    test_data_dir = 'your_dataset_dir'
+    train_data_dir = 'your_dataset_dir'
     test_data_count = len(os.listdir(test_data_dir))
     train_data_count = len(os.listdir(train_data_dir))
     print(f"Number of data samples in the test directory: {test_data_count}")
